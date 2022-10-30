@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>jpa1</module>
+        <module>jpa2</module>
     </modules>
     <dependencies>
         <dependency>
