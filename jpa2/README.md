@@ -1,6 +1,33 @@
 # JPA Fundamentals - Lesson 2 - @ Id and generating @ Id values
 ###### following [JPA / Hibernate Fundamentals from Laur Spilca](https://www.youtube.com/playlist?list=PLEocw3gLFc8USLd90a_TicWGiMThDtpOJ "JPA / Hibernate Fundamentals Laur Spilca")
 
+## to see hibernate sql logging you can add this to persistence.xml
+```xml
+<property name = "hibernate.show_sql" value = "true" />
+```
+the persistence.xml should look like the following;
+```xml
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+    <!-- Define persistence unit -->
+    <persistence-unit name="my-persistence-unit">
+        <description>JpaForBeginners</description>
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+
+        <properties>
+            <!-- database connection -->
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/jpa" />
+            <property name="javax.persistence.jdbc.user" value="root" />
+            <property name="javax.persistence.jdbc.password" value="" />
+            <property name = "hibernate.show_sql" value = "true" />
+        </properties>
+    </persistence-unit>
+</persistence>
+```
+this file will be in `src/main/resources/META-INF/persistence.xml` path
 ## Using Just @ Id
 If you add just @ Id you are responsible of providing the values  for this attribute by yourself.
 
@@ -279,7 +306,7 @@ public class Main {
             em.persist(item);
             em.getTransaction().commit();
         } catch (Exception e) {
-             em.getTransaction().rollback();
+            em.getTransaction().rollback();
         } finally {
             em.close();
         }
@@ -318,19 +345,19 @@ You can use other generators or creating your own generator like using UUIDGenra
 ```java
 @Entity
 public class MyEntity {
-	@Id
-	@GeneratedValue( generator="uuid" )
-	@GenericGenerator(
-			name="uuid",
-			strategy="org.hibernate.id.UUIDGenerator",
-			parameters = {
-					@Parameter(
-							name="uuid_gen_strategy_class",
-							value="org.hibernate.id.uuid.CustomVersionOneStrategy"
-					)
-			}
-	)
-	public UUID id;
+    @Id
+    @GeneratedValue( generator="uuid" )
+    @GenericGenerator(
+            name="uuid",
+            strategy="org.hibernate.id.UUIDGenerator",
+            parameters = {
+                    @Parameter(
+                            name="uuid_gen_strategy_class",
+                            value="org.hibernate.id.uuid.CustomVersionOneStrategy"
+                    )
+            }
+    )
+    public UUID id;
 	...
 }
 ```
