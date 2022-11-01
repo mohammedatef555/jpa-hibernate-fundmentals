@@ -13,6 +13,7 @@
         <module>jpa2</module>
         <module>jpa3</module>
         <module>jpa3</module>
+        <module>jpa4</module>
     </modules>
     <dependencies>
         <dependency>
