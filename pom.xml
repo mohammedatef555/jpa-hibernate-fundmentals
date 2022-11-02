@@ -14,6 +14,7 @@
         <module>jpa3</module>
         <module>jpa3</module>
         <module>jpa4</module>
+        <module>jpa5</module>
     </modules>
     <dependencies>
         <dependency>
