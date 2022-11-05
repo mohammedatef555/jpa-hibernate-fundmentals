@@ -359,7 +359,7 @@ mysql> select * from professor_student;
 Notes:
 - whenever you have a bidirectional relationship you will have mappedBy
 - fetch
-- if above object, the default is Eager
-- if above collection, the default is Lazy
+  - if above object, the default is Eager
+  - if above collection, the default is Lazy
 
-Remember you will never use mappedBy with @JoinColumn or @JoinTable in the same entity, they always on the opposite sides.
+**Remember you will never use mappedBy with @JoinColumn or @JoinTable in the same entity, they always on the opposite sides.**
