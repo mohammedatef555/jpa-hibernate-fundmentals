@@ -18,6 +18,7 @@
         <module>jpa6</module>
         <module>jpa7</module>
         <module>jpa8</module>
+        <module>jpa9</module>
     </modules>
     <dependencies>
         <dependency>
