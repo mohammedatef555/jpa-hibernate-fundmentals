@@ -19,6 +19,7 @@
         <module>jpa7</module>
         <module>jpa8</module>
         <module>jpa9</module>
+        <module>jpa10</module>
     </modules>
     <dependencies>
         <dependency>

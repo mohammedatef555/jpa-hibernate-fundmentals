@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="974d4576-5bf2-46ac-8531-fce5ba6d4845" name="Changes" comment="Finished Eighth tutorial in the playlist:&#10;JPA Fundamentals - Lesson 8 - @AssociationOverride and @ElementCollection">
-      <change afterPath="$PROJECT_DIR$/jpa9/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa9/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa9/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="974d4576-5bf2-46ac-8531-fce5ba6d4845" name="Changes" comment="Finished Ninth tutorial in the playlist:&#10;JPA Fundamentals - Lesson 9 - Using maps for relationships">
+      <change afterPath="$PROJECT_DIR$/jpa10/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa10/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa10/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa10/src/main/java/org/example/entities/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa10/src/main/java/org/example/entities/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa10/src/main/java/org/example/entities/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa10/src/main/java/org/example/entities/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa10/src/main/java/org/example/entities/Chocolate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa10/src/main/java/org/example/entities/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa10/src/main/java/org/example/entities/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa10/src/main/java/org/example/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa10/src/main/java/org/example/entities/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa10/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -62,7 +72,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/mohdatef/Developer/java/jpa-hibernate/learn/jpa-hibernate-fundmentals/jpa-hibernate-fundmentals/jpa9",
+    "last_opened_file_path": "/Users/mohdatef/Developer/java/jpa-hibernate/learn/jpa-hibernate-fundmentals/jpa-hibernate-fundmentals/jpa10",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -71,11 +81,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jpa10" />
+      <recent name="$PROJECT_DIR$/jpa10/src/main/resources" />
       <recent name="$PROJECT_DIR$/jpa9" />
       <recent name="$PROJECT_DIR$/jpa8/src/main/resources" />
       <recent name="$PROJECT_DIR$/jpa8" />
-      <recent name="$PROJECT_DIR$/jpa7/src/main/resources" />
-      <recent name="$PROJECT_DIR$/jpa6/src/main/resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -164,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667735148940</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Finished Ninth tutorial in the playlist:&#10;JPA Fundamentals - Lesson 9 - Using maps for relationships">
+      <created>1667810451419</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667810451419</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +205,7 @@
     <MESSAGE value="Finished Sixth tutorial in the playlist:&#10;JPA Fundamentals - Lesson 6 - @OneToMany and @ManyToOne" />
     <MESSAGE value="Finished Seventh tutorial in the playlist:&#10;JPA Fundamentals - Lesson 7 - @ManyToMany" />
     <MESSAGE value="Finished Eighth tutorial in the playlist:&#10;JPA Fundamentals - Lesson 8 - @AssociationOverride and @ElementCollection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Eighth tutorial in the playlist:&#10;JPA Fundamentals - Lesson 8 - @AssociationOverride and @ElementCollection" />
+    <MESSAGE value="Finished Ninth tutorial in the playlist:&#10;JPA Fundamentals - Lesson 9 - Using maps for relationships" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Ninth tutorial in the playlist:&#10;JPA Fundamentals - Lesson 9 - Using maps for relationships" />
   </component>
 </project>
