@@ -436,7 +436,7 @@ mysql> select * from car;
 1 row in set (0.00 sec)
 ```
 
-## @MappedSuperClass Entity inheritance @Inheritance  
+## @MappedSuperClass VS Entity inheritance @Inheritance  
 **MappedSuperClass**
 - must be used to inherit properties, associations, and methods.
 - tells the JPA provider to include the base class persistent properties as if they were declared by the child class extending the superclass annotated with
