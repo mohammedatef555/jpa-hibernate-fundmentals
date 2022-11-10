@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="974d4576-5bf2-46ac-8531-fce5ba6d4845" name="Changes" comment="Finished Tenth tutorial in the playlist:&#10;JPA Fundamentals - Lesson 10 - @MappedSuperclass and Inheritance strategies for entities">
-      <change afterPath="$PROJECT_DIR$/jpa11/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa11/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa11/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa11/src/main/java/org/example/entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa11/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    <list default="true" id="974d4576-5bf2-46ac-8531-fce5ba6d4845" name="Changes" comment="Finished Eleventh tutorial in the playlist:&#10;JPA Fundamentals - Lesson 11 - The EntityManager">
+      <change afterPath="$PROJECT_DIR$/jpa12/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa12/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa12/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa12/src/main/java/org/example/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa12/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -49,6 +49,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2GnqOsrph8ucHdYG2TGEuP9kVJK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -64,7 +71,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/mohdatef/Developer/java/jpa-hibernate/learn/jpa-hibernate-fundmentals/jpa-hibernate-fundmentals/jpa11",
+    "last_opened_file_path": "/Users/mohdatef/Developer/java/jpa-hibernate/learn/jpa-hibernate-fundmentals/jpa-hibernate-fundmentals/jpa12/src/main/resources",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -73,11 +80,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jpa12/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/jpa11" />
       <recent name="$PROJECT_DIR$/jpa11/src/main/resources" />
       <recent name="$PROJECT_DIR$/jpa10" />
-      <recent name="$PROJECT_DIR$/jpa10/src/main/resources" />
-      <recent name="$PROJECT_DIR$/jpa9" />
     </key>
   </component>
   <component name="RunManager">
@@ -187,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667911266679</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Finished Eleventh tutorial in the playlist:&#10;JPA Fundamentals - Lesson 11 - The EntityManager">
+      <created>1667985140396</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667985140396</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +227,7 @@
     <MESSAGE value="Finished Eighth tutorial in the playlist:&#10;JPA Fundamentals - Lesson 8 - @AssociationOverride and @ElementCollection" />
     <MESSAGE value="Finished Ninth tutorial in the playlist:&#10;JPA Fundamentals - Lesson 9 - Using maps for relationships" />
     <MESSAGE value="Finished Tenth tutorial in the playlist:&#10;JPA Fundamentals - Lesson 10 - @MappedSuperclass and Inheritance strategies for entities" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Tenth tutorial in the playlist:&#10;JPA Fundamentals - Lesson 10 - @MappedSuperclass and Inheritance strategies for entities" />
+    <MESSAGE value="Finished Eleventh tutorial in the playlist:&#10;JPA Fundamentals - Lesson 11 - The EntityManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Eleventh tutorial in the playlist:&#10;JPA Fundamentals - Lesson 11 - The EntityManager" />
   </component>
 </project>
