@@ -22,6 +22,7 @@
         <module>jpa10</module>
         <module>jpa11</module>
         <module>jpa12</module>
+        <module>jpa14</module>
     </modules>
     <dependencies>
         <dependency>
