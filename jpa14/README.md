@@ -43,7 +43,7 @@ public class Product extends GeneralEntity {
 }
 ```
 
-We 7 lifecycle annotations:
+We have 7 lifecycle annotations:
 - LOAD		— `@PostLoad()`
 - UPDATE	— `@PreUpdate()` `@PostUpdate()`
 - REMOVE	— `@PreRemove()` `@PostRemove()`
